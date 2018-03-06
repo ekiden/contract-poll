@@ -1,0 +1,9 @@
+[package]
+name = "voting-contract"
+version = "0.1.0"
+authors = ["3dmund"]
+
+[dependencies]
+
+[build-dependencies]
+ekiden-tools = { path = "../../tools" }
