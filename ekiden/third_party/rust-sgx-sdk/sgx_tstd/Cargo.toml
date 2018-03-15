@@ -1,0 +1,27 @@
+[package]
+name = "sgx_tstd"
+version = "0.9.7"
+authors = ["Baidu"]
+build = "build.rs"
+
+[lib]
+name = "sgx_tstd"
+crate-type = ["rlib"]
+
+[features]
+default = ["stdio"]
+backtrace = ["stdio"]
+stdio = []
+net = []
+untrusted_fs = []
+untrusted_time = []
+
+[build-dependencies]
+build_helper = { path = "../build_helper" }
+
+[dependencies]
+sgx_types = { path = "../sgx_types" }
+sgx_trts = { path = "../sgx_trts" }
+sgx_alloc = { path = "../sgx_alloc" }
+sgx_tprotected_fs = { path = "../sgx_tprotected_fs" }
+unwind = { path = "../libunwind" }

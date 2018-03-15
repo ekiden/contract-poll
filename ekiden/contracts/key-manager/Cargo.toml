@@ -1,0 +1,23 @@
+[package]
+name = "key-manager"
+version = "0.1.0"
+authors = ["Jernej Kos <jernej@kos.mx>"]
+build = "build.rs"
+
+[lib]
+name = "key_manager"
+crate-type = ["staticlib"]
+
+[features]
+default = []
+
+[dependencies]
+ekiden-core-common = { path = "../../core/common" }
+ekiden-core-trusted = { path = "../../core/trusted" }
+key-manager-api = { path = "./api" }
+lazy_static = { version = "1.0", features = ["spin_no_std"] }
+protobuf = "1.4.3"
+
+[build-dependencies]
+ekiden-tools = { path = "../../tools" }
+ekiden-core-edl = { path = "../../core/edl" }

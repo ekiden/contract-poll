@@ -1,0 +1,18 @@
+[package]
+name = "sgx_tdh"
+version = "0.9.7"
+authors = ["Baidu"]
+
+[lib]
+name = "sgx_tdh"
+crate-type = ["rlib"]
+
+
+[features]
+default = []
+
+[dependencies]
+sgx_types = { path = "../sgx_types" }
+sgx_trts = { path = "../sgx_trts" }
+sgx_tcrypto = { path = "../sgx_tcrypto" }
+sgx_tse = { path = "../sgx_tse" }

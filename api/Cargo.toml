@@ -1,0 +1,13 @@
+[package]
+name = "poll"
+version = "0.1.0"
+authors = ["Sharabesh Ramesh <sharabesh@berkeley.edu>"]
+build = "build.rs"
+
+[dependencies]
+ekiden-core-common = { path = "../ekiden/core/common" }
+protobuf = "1.4.3"
+
+[build-dependencies]
+ekiden-tools = { path = "../ekiden/tools" }
+protoc = "1.4.3"

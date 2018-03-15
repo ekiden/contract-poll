@@ -1,0 +1,12 @@
+[package]
+name = "sgx_rand_derive"
+version = "0.9.7"
+authors = ["Baidu"]
+
+[lib]
+name = "sgx_rand_derive"
+proc-macro = true
+
+[dependencies]
+quote = "0.3"
+syn = "0.11"

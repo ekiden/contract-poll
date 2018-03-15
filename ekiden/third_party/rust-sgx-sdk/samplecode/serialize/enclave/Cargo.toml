@@ -1,0 +1,15 @@
+[package]
+name = "Serializesampleenclave"
+version = "0.9.7"
+authors = ["Baidu"]
+
+[lib]
+name = "serializesampleenclave"
+crate-type = ["staticlib"]
+
+[target.'cfg(not(target_env = "sgx"))'.dependencies]
+sgx_tstd = { path = "../../../sgx_tstd" }
+sgx_serialize = { path = "../../../sgx_serialize" }
+
+[dependencies]
+sgx_serialize_derive = { path = "../../../sgx_serialize_derive"}

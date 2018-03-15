@@ -1,0 +1,14 @@
+[package]
+name = "sgx_tkey_exchange"
+version = "0.9.7"
+authors = ["Baidu"]
+
+[lib]
+name = "sgx_tkey_exchange"
+crate-type = ["rlib"]
+
+[features]
+default = []
+
+[dependencies]
+sgx_types = { path = "../sgx_types" }

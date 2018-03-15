@@ -1,0 +1,18 @@
+[package]
+name = "ekiden-db-untrusted"
+version = "0.1.0"
+authors = [
+    "Raymond Cheng <me@raymondcheng.net>",
+    "Jernej Kos <jernej@kos.mx>"
+]
+
+[features]
+sgx-simulation = []
+
+[dependencies]
+sgx_types = { path = "../../third_party/rust-sgx-sdk/sgx_types" }
+ekiden-common = { path = "../../common" }
+ekiden-enclave-untrusted = { path = "../../enclave/untrusted" }
+
+[build-dependencies]
+ekiden-tools = { path = "../../tools" }

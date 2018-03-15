@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package poll;
+
+message VoteRequest {
+    int32 direction = 1;
+}
+
+message VoteResponse {
+    int32 total = 2;
+}
+
+
+

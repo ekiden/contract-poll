@@ -1,0 +1,18 @@
+[package]
+name = "sgx_urts"
+version = "0.9.7"
+authors = ["Baidu"]
+
+[lib]
+name = "sgx_urts"
+crate-type = ["rlib"]
+
+[features]
+default = []
+global_init = []
+global_exit = []
+
+
+[dependencies]
+sgx_types = { path = "../sgx_types" }
+libc = "*"

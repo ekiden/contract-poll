@@ -1,0 +1,1 @@
+{"rustc":6348385114118856060,"features":"[\"default\", \"parsing\", \"printing\", \"quote\"]","target":2157248160970720175,"profile":4513376542218014594,"path":17403778973146816474,"deps":[["quote v0.1.4",2178315511271663831]],"local":[{"Precalculated":"0.7.1"}],"rustflags":[]}

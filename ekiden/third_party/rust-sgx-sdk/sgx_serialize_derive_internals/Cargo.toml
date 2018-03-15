@@ -1,0 +1,11 @@
+[package]
+name = "sgx_serialize_derive_internals"
+version = "0.9.7"
+authors = ["Baidu"]
+
+[lib]
+name = "sgx_serialize_derive_internals"
+crate-type = ["rlib"]
+
+[dependencies]
+syn = "0.11"
