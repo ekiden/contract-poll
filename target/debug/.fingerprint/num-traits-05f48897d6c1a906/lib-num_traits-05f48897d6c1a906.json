@@ -1,1 +1,0 @@
-{"rustc":6348385114118856060,"features":"[]","target":14444283394554169133,"profile":15195724534790907536,"path":15684499558231071508,"deps":[["sgx_tstd v0.9.7 (file:///code/ekiden/third_party/rust-sgx-sdk/sgx_tstd)",5440024710098120842]],"local":[{"MtimeBased":[[1520200822,0],".fingerprint/num-traits-05f48897d6c1a906/dep-lib-num_traits-05f48897d6c1a906"]}],"rustflags":[]}

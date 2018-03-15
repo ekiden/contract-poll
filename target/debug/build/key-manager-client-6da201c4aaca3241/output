@@ -1,2 +1,0 @@
-cargo:rerun-if-changed=../../../scripts/parse_enclave.py
-cargo:rerun-if-changed=../../../target/enclave/key-manager.signed.so
